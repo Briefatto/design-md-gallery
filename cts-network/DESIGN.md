@@ -216,3 +216,6 @@ Use compact rounded actions, a filled gold priority button, an outlined companio
 - Don't reproduce the logo, brand illustrations, product screenshots, or marketing text.
 - Don't turn the measured navy-and-gold hierarchy into an unrelated neon or heavily illustrated consumer interface.
 
+---
+
+Made with [Briefatto Board](https://github.com/Briefatto/briefatto-board). Run `npx briefatto-board install` and your coding agent reads this file before visual work and checks every piece it renders.

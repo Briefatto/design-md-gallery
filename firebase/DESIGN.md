@@ -1772,3 +1772,6 @@ Use clear action controls, modest-radius information cards, readable tabular com
 - Don't reproduce the logo, brand illustrations, product screenshots, or marketing text.
 - Don't let added decoration compete with the site's defining typography, content rhythm, and action hierarchy.
 
+---
+
+Made with [Briefatto Board](https://github.com/Briefatto/briefatto-board). Run `npx briefatto-board install` and your coding agent reads this file before visual work and checks every piece it renders.

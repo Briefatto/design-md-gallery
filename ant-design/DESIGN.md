@@ -145,3 +145,6 @@ The defining vocabulary is a compact blue filled action, a quiet outlined compan
 - Don't reproduce the logo, brand illustrations, product screenshots, or marketing text.
 - Don't turn the restrained enterprise controls into oversized pill buttons or add heavy shadows to every documentation block.
 
+---
+
+Made with [Briefatto Board](https://github.com/Briefatto/briefatto-board). Run `npx briefatto-board install` and your coding agent reads this file before visual work and checks every piece it renders.
