@@ -152,7 +152,7 @@ Use compact rectangular actions, thin outlined companions, small technical label
 
 **Imagery and iconography.** Use original editor-like diagrams, restrained grids, and neutral code specimens. The subtle paper/technical atmosphere can be suggested with original CSS geometry; do not copy product screenshots or marks.
 
-**Motion.** No non-zero transition was exposed in the sampled component styles. Static screenshots do not establish entrance choreography, hover behavior, or video timing. Use restrained feedback, respect reduced-motion preferences, and verify live interactions before claiming an exact motion system.
+**Motion.** No non-zero transition was exposed in the sampled component styles. Static screenshots do not establish entrance choreography, hover behavior, or video timing. Use restrained feedback and respect reduced-motion preferences.
 
 **Voice.** Direct, specific, and comfortable with developer terminology.
 
