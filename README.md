@@ -1,6 +1,6 @@
 # DESIGN.md examples: 110 free DESIGN.md files for popular brands
 
-Drop-in `DESIGN.md` files for Claude Code, Codex, Cursor, GitHub Copilot, Gemini CLI, Windsurf and every coding agent that reads a design guide before visual work. Each file holds the brand's colours, type, corner radii, spacing and component rules, extracted from its public website and checked with Google's DESIGN.md linter.
+Drop-in `DESIGN.md` files that every agent reads before visual work. Each file holds the brand's colours, type, corner radii, spacing and component rules, extracted from its public website and checked with Google's DESIGN.md linter.
 
 Made with [Briefatto Board](https://github.com/Briefatto/briefatto-board), which makes your agent follow one versioned DESIGN.md and checks every piece it renders.
 
