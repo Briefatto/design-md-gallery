@@ -16,7 +16,7 @@
 
 <sub>Drawn from each brand's tokens: background, display weight, primary button, radius and palette.</sub>
 
-`DESIGN.md` files for 110 brands, each measured from the brand's rendered public site and checked with Google's DESIGN.md linter. Every agent reads them before visual work.
+`DESIGN.md` files for 110 brands, each measured from the brand's rendered public site and checked with Google's DESIGN.md linter. Put one at your project root and your agent builds UI in that brand.
 
 ## Use a brand
 
@@ -31,14 +31,6 @@ Swap `linear` for any folder in [`brands/`](brands/). Or paste this into any age
 Download
 https://raw.githubusercontent.com/Briefatto/design-md-gallery/main/brands/linear/DESIGN.md
 and save it as DESIGN.md in the project root.
-```
-
-### Keep it true with Briefatto Board
-
-[Briefatto Board](https://github.com/Briefatto/briefatto-board) versions the guide and checks every piece your agent renders.
-
-```sh
-npx briefatto-board install
 ```
 
 ## What a file looks like
@@ -71,6 +63,14 @@ And where they came from, in the same file:
 Each brand's guide on briefatto.com lists the page and viewport behind every colour and radius, and its Markdown version does the same for every spacing step.
 
 Want your own brand instead? Run `npx briefatto-board adopt .` on your site and your agent writes yours.
+
+## Keep it true with Briefatto Board
+
+[Briefatto Board](https://github.com/Briefatto/briefatto-board) versions the guide and checks every piece your agent renders.
+
+```sh
+npx briefatto-board install
+```
 
 ## The files
 
