@@ -5,10 +5,6 @@
   </picture>
 </p>
 
-# DESIGN.md Gallery
-
-Drop-in `DESIGN.md` files for 110 brands that every agent reads before visual work, measured from each brand's rendered public site and checked with Google's DESIGN.md linter.
-
 <p>
   <a href="#the-files">
     <picture>
@@ -19,6 +15,8 @@ Drop-in `DESIGN.md` files for 110 brands that every agent reads before visual wo
 </p>
 
 <sub>Drawn from each brand's tokens: background, display weight, primary button, radius and palette.</sub>
+
+`DESIGN.md` files for 110 brands, each measured from the brand's rendered public site and checked with Google's DESIGN.md linter. Every agent reads them before visual work.
 
 ## Use a brand
 
@@ -35,7 +33,9 @@ https://raw.githubusercontent.com/Briefatto/design-md-gallery/main/brands/linear
 and save it as DESIGN.md in the project root.
 ```
 
-Optional next step: [Briefatto Board](https://github.com/Briefatto/briefatto-board) versions the guide and checks every piece your agent renders.
+### Keep it true with Briefatto Board
+
+[Briefatto Board](https://github.com/Briefatto/briefatto-board) versions the guide and checks every piece your agent renders.
 
 ```sh
 npx briefatto-board install
