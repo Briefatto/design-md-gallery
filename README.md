@@ -1,14 +1,45 @@
-# DESIGN.md examples: 110 free DESIGN.md files for popular brands
+# DESIGN.md Gallery: 110 brands, measured from their rendered sites
 
-Drop-in `DESIGN.md` files that every agent reads before visual work. Each file holds the brand's colours, type, corner radii, spacing and component rules, extracted from its public website and checked with Google's DESIGN.md linter.
+Drop-in `DESIGN.md` files that every agent reads before visual work. Each holds a brand's colours, type, corner radii, spacing and component rules, measured from the brand's rendered public site and checked with Google's DESIGN.md linter. Each file names the pages and viewports it was measured from.
 
-Made with [Briefatto Board](https://github.com/Briefatto/briefatto-board), which makes your agent follow one versioned DESIGN.md and checks every piece it renders.
+<table>
+<tr>
+<td align="center"><a href="linear/DESIGN.md"><img src="linear/preview.png" width="200" alt="Linear DESIGN.md preview"></a><br><sub>Linear</sub></td>
+<td align="center"><a href="stripe/DESIGN.md"><img src="stripe/preview.png" width="200" alt="Stripe DESIGN.md preview"></a><br><sub>Stripe</sub></td>
+<td align="center"><a href="supabase/DESIGN.md"><img src="supabase/preview.png" width="200" alt="Supabase DESIGN.md preview"></a><br><sub>Supabase</sub></td>
+<td align="center"><a href="anthropic/DESIGN.md"><img src="anthropic/preview.png" width="200" alt="Anthropic DESIGN.md preview"></a><br><sub>Anthropic</sub></td>
+</tr>
+<tr>
+<td align="center"><a href="discord/DESIGN.md"><img src="discord/preview.png" width="200" alt="Discord DESIGN.md preview"></a><br><sub>Discord</sub></td>
+<td align="center"><a href="notion/DESIGN.md"><img src="notion/preview.png" width="200" alt="Notion DESIGN.md preview"></a><br><sub>Notion</sub></td>
+<td align="center"><a href="netflix/DESIGN.md"><img src="netflix/preview.png" width="200" alt="Netflix DESIGN.md preview"></a><br><sub>Netflix</sub></td>
+<td align="center"><a href="shopify/DESIGN.md"><img src="shopify/preview.png" width="200" alt="Shopify DESIGN.md preview"></a><br><sub>Shopify</sub></td>
+</tr>
+</table>
 
-## Use one in 30 seconds
+## Use a brand in one line
 
-1. Copy a brand's `DESIGN.md` into your project root.
-2. Run `npx briefatto-board install`. It adds the skill and a pointer in AGENTS.md and CLAUDE.md.
-3. Ask your agent for UI. It reads `DESIGN.md` first.
+Paste this into any agent. Swap `linear` for any folder in the table below.
+
+```text
+Download https://briefatto.com/guides/linear-design-md/DESIGN.md and save it as DESIGN.md in the project root. Then run `npx briefatto-board install` and follow the Briefatto Board skill for all visual work in this project.
+```
+
+Or from a terminal:
+
+```sh
+curl -o DESIGN.md https://raw.githubusercontent.com/Briefatto/design-md-gallery/main/linear/DESIGN.md
+npx briefatto-board install
+```
+
+## What every file carries
+
+- **Tokens** in YAML front matter, to Google's DESIGN.md spec: colours, typography, radii, spacing and components.
+- **Prose** an agent can act on: overview, colour roles, components, layout, voice, do's and don'ts.
+- **Where it came from:** for example, "Built from / and /pricing, captured on 2026-11-21 UTC at 1440×900 and 390×844."
+- **A preview** (`preview.png`) of the palette and type.
+
+Each brand's guide on briefatto.com lists the page and viewport behind every colour and radius, and its Markdown version does the same for every spacing step. Every file drops into [Briefatto Board](https://github.com/Briefatto/briefatto-board), which versions the guide and checks every piece your agent renders.
 
 Want your own brand instead? Run `npx briefatto-board adopt .` on your site and your agent writes yours.
 
