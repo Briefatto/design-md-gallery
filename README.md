@@ -1,34 +1,47 @@
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset=".github/assets/banner-dark.png">
+    <img src=".github/assets/banner-light.png" width="830" alt="Briefatto DESIGN.md Gallery: 110 brands, measured">
+  </picture>
+</p>
+
+<p align="center">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/licence-MIT-151515?style=flat-square" alt="MIT licence"></a>
+  <a href="#the-files"><img src="https://img.shields.io/badge/brands-110-2538E8?style=flat-square" alt="110 brands"></a>
+  <a href="https://github.com/Briefatto/briefatto-board"><img src="https://img.shields.io/badge/built%20for-every%20agent-62625D?style=flat-square" alt="Built for every agent"></a>
+</p>
+
 # DESIGN.md Gallery: 110 brands, measured from their rendered sites
 
 Drop-in `DESIGN.md` files that every agent reads before visual work. Each holds a brand's colours, type, corner radii, spacing and component rules, measured from the brand's rendered public site and checked with Google's DESIGN.md linter. Each file names the pages and viewports it was measured from.
 
-<table>
-<tr>
-<td align="center"><a href="brands/linear/DESIGN.md"><img src="brands/linear/preview.png" width="200" alt="Linear DESIGN.md preview"></a><br><sub>Linear</sub></td>
-<td align="center"><a href="brands/stripe/DESIGN.md"><img src="brands/stripe/preview.png" width="200" alt="Stripe DESIGN.md preview"></a><br><sub>Stripe</sub></td>
-<td align="center"><a href="brands/supabase/DESIGN.md"><img src="brands/supabase/preview.png" width="200" alt="Supabase DESIGN.md preview"></a><br><sub>Supabase</sub></td>
-<td align="center"><a href="brands/anthropic/DESIGN.md"><img src="brands/anthropic/preview.png" width="200" alt="Anthropic DESIGN.md preview"></a><br><sub>Anthropic</sub></td>
-</tr>
-<tr>
-<td align="center"><a href="brands/discord/DESIGN.md"><img src="brands/discord/preview.png" width="200" alt="Discord DESIGN.md preview"></a><br><sub>Discord</sub></td>
-<td align="center"><a href="brands/notion/DESIGN.md"><img src="brands/notion/preview.png" width="200" alt="Notion DESIGN.md preview"></a><br><sub>Notion</sub></td>
-<td align="center"><a href="brands/netflix/DESIGN.md"><img src="brands/netflix/preview.png" width="200" alt="Netflix DESIGN.md preview"></a><br><sub>Netflix</sub></td>
-<td align="center"><a href="brands/shopify/DESIGN.md"><img src="brands/shopify/preview.png" width="200" alt="Shopify DESIGN.md preview"></a><br><sub>Shopify</sub></td>
-</tr>
-</table>
+<p>
+  <a href="#the-files">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset=".github/assets/brands-dark.png">
+      <img src=".github/assets/brands-light.png" width="830" alt="Twelve of the 110 brands drawn from their DESIGN.md tokens: Linear, Stripe, Netflix, Anthropic, Discord, Duolingo, Ahrefs, HubSpot, Jasper, Sentry, Amazon and Wispr Flow">
+    </picture>
+  </a>
+</p>
+
+<sub>Twelve of the 110, drawn from their tokens: background, display face and weight, primary button, corner radius and palette. Commercial faces are shown in an open stand-in.</sub>
 
 ## Use a brand in one line
 
-Paste this into any agent. Swap `linear` for any folder in the table below.
+Paste this into any agent. Swap `linear` for any folder in [`brands/`](brands/).
 
 ```text
-Download https://briefatto.com/guides/linear-design-md/DESIGN.md and save it as DESIGN.md in the project root. Then run `npx briefatto-board install` and follow the Briefatto Board skill for all visual work in this project.
+Download https://briefatto.com/guides/linear-design-md/DESIGN.md
+and save it as DESIGN.md in the project root.
+Then run `npx briefatto-board install` and follow
+the Briefatto Board skill for all visual work in this project.
 ```
 
 Or from a terminal:
 
 ```sh
-curl -o DESIGN.md https://raw.githubusercontent.com/Briefatto/design-md-gallery/main/brands/linear/DESIGN.md
+curl -o DESIGN.md \
+  https://raw.githubusercontent.com/Briefatto/design-md-gallery/main/brands/linear/DESIGN.md
 npx briefatto-board install
 ```
 
